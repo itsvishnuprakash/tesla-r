@@ -1,4 +1,6 @@
-
+*{
+    overflow-x: hidden;
+}
 body{
     font-family: FuraCode Nerd Font, -apple-system, "system-ui", BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, "sans-serif", Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
     font-size: 16px !important;
@@ -15,6 +17,7 @@ body{
     width: 20%;
     height: 50px;
     padding-left: 30px;
+    overflow: hidden;
 }
 .logo-tesla{
     height: 4rem;
@@ -114,11 +117,13 @@ body{
     text-transform: capitalize;
     color: #1d1f20;
     font-weight: 900;
+    overflow: hidden;
 }
 .section-title{
     margin-bottom: .5rem;
     font-weight: 640;
     font-size: 40px;
+    overflow: hidden;
 }
 .arrow{
     padding-top: 90px;
